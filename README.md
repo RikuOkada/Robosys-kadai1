@@ -5,6 +5,13 @@
 標準入力から読み込んだ数字を足します。
 また、入力の中に奇数と偶数がそれぞれいくつ含まれているのかを表示します。
 
+##インストール方法
+
+'''
+$ git clone https://github.com/RikuOkada/Robosys-kadai1
+$ cd Robosys-kadai1/
+'''
+
 ##必要なソフトウェア
 * Python:
    * テスト済み: 3.7～3.10
