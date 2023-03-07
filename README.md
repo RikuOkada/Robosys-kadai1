@@ -7,10 +7,10 @@
 
 ##インストール方法
 
-'''
+```
 $ git clone https://github.com/RikuOkada/Robosys-kadai1
 $ cd Robosys-kadai1/
-'''
+```
 
 ##必要なソフトウェア
 * Python:
