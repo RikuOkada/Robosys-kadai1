@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -xv
 # SPDX-FileCopyrightText: 2023 Riku Okada
 # SPDX-License-Identifier: BSD-3-Clause
 
@@ -14,7 +14,7 @@ out=$(seq 5 | ./plus)
 
 [ "${out}" = "全体の合計= 15
 奇数： 3 個
-偶数： 2 個"] || ng $LINENO
+偶数： 2 個" ] || ng $LINENO
 
 ### STRANGE INPUT ###
 out=$(echo あ | ./plus)
