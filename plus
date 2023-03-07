@@ -6,10 +6,23 @@
 import sys
 
 ans = 0
+odd = 0
+even = 0
+
+for num in sys.stdin:
+    num = int(num)
+    if num % 2 == 0:
+        even += 1
+    else: 
+        odd += 1
+                             
 for line in sys.stdin:
     try:
         ans += int(line)
     except:
         ans += float(line)
+                            
+print("全体の合計=", ans)
+print("奇数：",odd,"個")
+print("偶数：",even,"個")
 
-print(ans)
