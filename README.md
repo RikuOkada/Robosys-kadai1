@@ -1,5 +1,7 @@
 # plusコマンド
 
+![test](https://github.com/RikuOkada/sisutemugaku/actions/workflows/test.yml/badge.svg)
+
 標準入力から読み込んだ数字を足す。
 
 ##必要なソフトウェア
