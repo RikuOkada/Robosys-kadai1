@@ -15,12 +15,11 @@ for num in sys.stdin:
         even += 1
     else: 
         odd += 1
-                             
-for line in sys.stdin:
+
     try:
-        ans += int(line)
+        ans += num
     except:
-        ans += float(line)
+        ans += float(num)
                             
 print("全体の合計=", ans)
 print("奇数：",odd,"個")
